@@ -11,7 +11,7 @@ audiopus = "0.1"
 failure = "0.1"
 cpal = "0.10"
 sample = "0.10"
-futures-preview = { version = "0.3.0-alpha.18", features = ["nightly", "async-await"] }
+futures-preview = { git = "https://github.com/rust-lang-nursery/futures-rs.git", features = ["unstable", "async-await", "bilock"] }
 async-std = "0.99"
 async-trait = "0.1"
 
